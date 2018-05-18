@@ -36,7 +36,7 @@
                                    
                                    
                                    
-http://tet.greybison.com/bestiality-taboo/none/full/7182-143631.jpg                                   
+http://tet.greybison.com/bestiality-taboo/none/full/7168-143348.jpg                                  
                                    
                                    
                                    
@@ -46,13 +46,34 @@ http://tet.greybison.com/bestiality-taboo/none/full/7182-143631.jpg
                                    ">
 
 
-  
-  
-		<video id="videojs-overlay-player" class="video-js vjs-sublime-skin" width="480" height="288"
-				controls preload="none" poster='http://tet.greybison.com/bestiality-taboo/none/full/7182-143631.jpg'
-				data-setup='{ "aspectRatio":"480:288", "playbackRates": [1, 1.5, 2] }'>
-			<source src="http://tev.greybison.com/secure/bestiality-taboo/7182.mp4?md5&#x3D;-0ZqvNnzOK7-ZH7a2MDuJA&amp;expires&#x3D;1526610837" type='video/mp4' />
+  <div class="player-area">
+
+
+		<video id="videojs-overlay-player" class="video-js vjs-sublime-skin" width="480" height="318"
+				controls preload="none" poster='http://tet.greybison.com/bestiality-taboo/none/full/7168-143348.jpg'
+				data-setup='{ "aspectRatio":"480:318", "playbackRates": [1, 1.5, 2] }'>
+			<source src="http://tev.greybison.com/secure/bestiality-taboo/7168.mp4?md5&#x3D;Ro_ChMm1dROjghb3sVtbSQ&amp;expires&#x3D;1526611813" type='video/mp4' />
 		</video>
 		<!-- for overlay -->
 		<script src="/overlay/video.js"></script>
 		<script src="/overlay/videojs-overlay.js"></script>
+
+		<script>
+    (function(window, videojs) {
+      var player = window.player = videojs('videojs-overlay-player');
+      player.overlay({
+        // content: 'Default overasdasdasdlay content',
+        // debug: true,
+
+        overlays: [{
+          // content: 'dsadasdasadsads',
+					// content: '<iframe src="https://en.wikipedia.org/wiki/Main_Page"></iframe>The video is PAUSED!- ADS IS SHOWING',
+					// content: '<iframe style="border:0;" class="adensive-iframe" width="300" height="250" align="center" src="http://http://backend.bisonads.com/impression"></iframe>',
+          content: '<iframe style="border:0;" class="adensive-iframe" width="300" height="250" align="center" src="http://http://backend.bisonads.com/impression"></iframe>',
+          start: 'pause',
+          end: 'play'
+        }]
+
+      });
+    }(window, window.videojs));
+  </script>
